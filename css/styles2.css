@@ -86,7 +86,7 @@ a:hover{
     position: absolute;
     left: 13px;
     padding: 5px;
-    top: 281px;
+    top: 283px;
     width: 200px;
     height: 70px;
     background-color:  rgb(255, 255, 255);
@@ -107,148 +107,46 @@ a:hover{
 
 .tp3{  
     position: absolute;
-    left: 440px;
-    padding: 5px;
-    top: 281px;
-    width: 192px;
-    height: 70px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-.tp4{  
-    position: absolute;
-    left: 650px;
-    padding: 5px;
-    top: 281px;
-    width: 192px;
-    height: 70px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-
-.tp5{  
-    position: absolute;
-    left: 13px;
-    padding: 5px;
-    top: 621px;
-    width: 200px;
-    height: 70px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-
-.tp6{  
-    position: absolute;
     left: 230px;
     padding: 5px;
-    top: 621px;
-    width: 200px;
+    top: 281px;
+    width: 192px;
     height: 70px;
     background-color:  rgb(255, 255, 255);
     border-radius: 15px;
     border: solid 2px green;
 }
 
-.tp7{  
-    position: absolute;
-    left: 440px;
-    padding: 5px;
-    top: 621px;
-    width: 200px;
-    height: 70px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-.tp8{  
-    position: absolute;
-    left: 650px;
-    padding: 5px;
-    top: 621px;
-    width: 200px;
-    height: 70px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
 
 .pr1{
     top: 30px;
     left: 10px;
     position: absolute;
     width: 200px;
-    height: 250;
+    height: 150;
     border-radius: 10px;
 }
 
 .pr2{
-    top: 30px;
-    left: 230px;
+    top: 190px;
+    left: 10px;
     position: absolute;
     width: 200px;
-    height: 250;
+    height: 150px;
+    border-radius: 10px;
+    background-color: red;
+}
+.pr3{
+    top: 345px;
+    left: 10px;
+    position: absolute;
+    width: 200px;
+    height: 150px;
     border-radius: 10px;
     background-color: red;
 }
 
-.pr3{
-    top: 30px;
-    left: 440px;
-    position: absolute;
-    width: 200px;
-    height: 250;
-    border-radius: 10px;
-}
 
-.pr4{
-    top: 30px;
-    left: 650px;
-    position: absolute;
-    width: 200px;
-    height: 250;
-    border-radius: 10px;
-}
-
-.pr5{
-    top: 370px;
-    left: 10px;
-    position: absolute;
-    width: 200px;
-    height: 250;
-    border-radius: 10px;
-    background: red;
-}
-.pr6{
-    top: 370px;
-    left: 230px;
-    position: absolute;
-    width: 200px;
-    height: 250;
-    border-radius: 10px;
-    background: red;
-}
-
-.pr7{
-    top: 370px;
-    left: 440px;
-    position: absolute;
-    width: 200px;
-    height: 250;
-    border-radius: 10px;
-    background: red;
-}
-.pr8{
-    top: 370px;
-    left: 650px;
-    position: absolute;
-    width: 200px;
-    height: 250;
-    border-radius: 10px;
-    background: red;
-}
 .button1{
     position: absolute;
    left: 65px;
@@ -262,36 +160,6 @@ a:hover{
    padding: 2px;
 }
 .button3{
-    position: absolute;
-   left: 65px;
-   top: 42px;
-   padding: 2px;
-}
-.button4{
-    position: absolute;
-   left: 65px;
-   top: 42px;
-   padding: 2px;
-}
-.button5{
-    position: absolute;
-   left: 65px;
-   top: 42px;
-   padding: 2px;
-}
-.button6{
-    position: absolute;
-   left: 65px;
-   top: 42px;
-   padding: 2px;
-}
-.button7{
-    position: absolute;
-   left: 65px;
-   top: 42px;
-   padding: 2px;
-}
-.button8{
     position: absolute;
    left: 65px;
    top: 42px;
