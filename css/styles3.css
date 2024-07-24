@@ -121,13 +121,61 @@ a:hover{
     height: 150;
     border-radius: 10px;
 }
+.precio1{
+    position: absolute;
+    top: 130px;
+    left: 500px;
+}
+.precio2{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+.precio3{
+    position: absolute;
+    top: 460px;
+    left: 500px;
+}
+
+.subtotal1 {
+    position: absolute;
+    top: 130px;
+    left: 600px;
+}
+.vsb1 {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+}
+
+.subtotal2 {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+.vsb2 {
+    position: absolute;
+    top: 315px;
+    left: 600px;
+}
+
+.subtotal3 {
+    position: absolute;
+    top: 460px;
+    left: 600px;
+}
+.vsb3 {
+    position: absolute;
+    top: 477px;
+    left: 600px;
+}
 
 .input1{
     padding: 10px 35px ;
     top:100px;
     left: 150px;
     position: absolute;
-    width: 10px;
+    width: 100px;
     height: 25;
     border-radius: 10px;
 }
@@ -136,7 +184,7 @@ a:hover{
     top:270px;
     left: 150px;
     position: absolute;
-    width: 10px;
+    width: 100px;
     height: 25;
     border-radius: 10px;
 }
@@ -145,7 +193,7 @@ a:hover{
     top:420px;
     left: 150px;
     position: absolute;
-    width: 10px;
+    width: 100px;
     height: 25;
     border-radius: 10px;
 }
@@ -202,6 +250,64 @@ a:hover{
     border-radius: 15px;
     border: solid 2px green;
 }
+
+.tp4{  
+    position: absolute;
+    left: 1000px;
+    padding: 5px;
+    top: 750px;
+    width: 300px;
+    height: 100px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 15px;
+    border-radius: 10px;
+    border: solid 2px green;
+}
+
+.precio4 {
+    position: absolute;
+    top: 780px;
+    left: 1210px;
+}
+.valor4 {
+    position: absolute;
+    top: 810px;
+    left: 1210px;
+}
+
+
+.cantidad4{
+    position: absolute;
+    left: 155px;
+    top: 400px;
+}
+
+.input4{
+    padding: 10px 35px ;
+    top:420px;
+    left: 150px;
+    position: absolute;
+    width: 100px;
+    height: 25;
+    border-radius: 10px;
+}
+.button4{
+    position: absolute;
+   left: 5px;
+   top: 38px;
+   padding: 2px;
+   border-radius: 3px;
+}
+.button4:hover{
+    background: green;
+    color: white;
+    position: absolute;
+   left: 5px;
+   top: 38px;
+   padding: 2px;
+   border-radius: 3px;
+}
+
 .button1{
     position: absolute;
    left: 755px;
@@ -246,8 +352,7 @@ a:hover{
    padding: 2px;
 }
 @media screen and (max-width: 700px) {
-    body {
-    
-    }
+
+
     
   }
