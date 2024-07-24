@@ -16,7 +16,7 @@ body{
     color: rgb(0, 199, 76);
 }
 header{
-
+    display: flex;
 }
 h2{
     padding: 2px;
