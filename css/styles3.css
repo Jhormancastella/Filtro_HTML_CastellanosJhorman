@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+}
+body{
+    background-color: #edede9;
+}
+.logo{
+
+    color: black;
+}
+.logo:hover{
+    color: rgb(0, 199, 76);
+}
+header{
+    display: flex;
+}
+h2{
+    padding: 2px;
+    margin: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    padding: 20px;
+    margin: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1:hover{
+    padding: 20px;
+    margin: 10px;
+    background: #00b472;
+}
+body{
+    background: #F7FFF7;
+}
+
+.menu{
+    top: 15px;
+    left: 50px;
+    position: absolute;
+    padding: 20px;
+    margin: 10px;
+}
+.content{
+    position: relative;
+}
+nav{
+    display:grid;
+    padding: 20px;
+    margin: 10px;
+}
+nav a{
+    display:grid;
+    padding: 20px;
+    margin: 10px;
+}
+
+.ca{
+    padding: 20px;
+    margin: 10px;
+}
+.todoslp{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    background: #d5f8e4;
+    border: solid rgb(87, 109, 87) 2px;
+    top: 50px;
+    left: 25%;
+}
+a{
+    color: rgb(0, 161, 81);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+a:hover{
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+.valor1{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+.valor2{
+    position: absolute;
+    top: 318px;
+    left: 500px;
+}
+.valor3{
+    position: absolute;
+    top: 480px;
+    left: 500px;
+}
+/*fotos*/
+.pr1{
+    top: 33px;
+    left: 10px;
+    position: absolute;
+    width: 135px;
+    height: 150;
+    border-radius: 10px;
+}
+.pr2{
+    top: 195px;
+    left: 10px;
+    position: absolute;
+    width: 135px;
+    height: 150;
+    border-radius: 10px;
+}
+.pr3{
+    top: 360px;
+    left: 10px;
+    position: absolute;
+    width: 135px;
+    height: 150;
+    border-radius: 10px;
+}
+
+.input1{
+    padding: 10px 35px ;
+    top:100px;
+    left: 150px;
+    position: absolute;
+    width: 10px;
+    height: 25;
+    border-radius: 10px;
+}
+.input2{
+    padding: 10px 35px ;
+    top:270px;
+    left: 150px;
+    position: absolute;
+    width: 10px;
+    height: 25;
+    border-radius: 10px;
+}
+.input3{
+    padding: 10px 35px ;
+    top:420px;
+    left: 150px;
+    position: absolute;
+    width: 10px;
+    height: 25;
+    border-radius: 10px;
+}
+.cantidad1{
+    position: absolute;
+    left: 155px;
+    top: 80px;
+}
+
+.cantidad2{
+    position: absolute;
+    left: 155px;
+    top: 250px;
+}
+
+.cantidad3{
+    position: absolute;
+    left: 155px;
+    top: 400px;
+}
+
+
+
+.tp1{  
+    position: absolute;
+    left: 141px;
+    padding: 5px;
+    top: 33px;
+    width: 750px;
+    height: 150px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 15px;
+    border: solid 2px green;
+}
+.tp2{  
+    position: absolute;
+    left: 141px;
+    padding: 5px;
+    top: 195px;
+    width: 750px;
+    height: 150px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 15px;
+    border: solid 2px green;
+}
+.tp3{  
+    position: absolute;
+    left: 141px;
+    padding: 5px;
+    top: 360px;
+    width: 750px;
+    height: 150px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 15px;
+    border: solid 2px green;
+}
+.button1{
+    position: absolute;
+   left: 755px;
+   top: 55px;
+   padding: 2px;
+}
+.button2{
+    position: absolute;
+   left: 755px;
+   top: 55px;
+   padding: 2px;
+}
+.button3{
+    position: absolute;
+   left: 755px;
+   top: 55px;
+   padding: 2px;
+}
+
+
+.buttonv{
+    position: absolute;
+    left: 550px;
+    top: 780px;
+   padding: 2px;
+}
+
+
+.buttonva{
+    height: 35px;
+    width: 50px;
+    left: 550px;
+    top: 780px;
+}
+
+.buttonv:hover{
+    background: #00b472;
+    color: white;
+    position: absolute;
+    left: 550px;
+    top: 780px;
+   padding: 2px;
+}
+@media screen and (max-width: 700px) {
+    body {
+    
+    }
+    
+  }

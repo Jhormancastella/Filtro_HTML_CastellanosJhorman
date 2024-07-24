@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-   
 }
 body{
     background-color: #edede9;
 }
 .logo{
-
     color: black;
 }
 .logo:hover{
-    color: rgb(0, 199, 76);
+    color: rgb(255, 255, 255);
+}
+.lg{
+    
 }
 header{
     display: flex;
@@ -49,12 +50,12 @@ body{
 }
 nav{
     display:grid;
-    padding: 20px;
+    padding: 20px 55px;
     margin: 10px;
 }
 nav a{
     display:grid;
-    padding: 20px;
+    padding: 20px 55px;
     margin: 10px;
 }
 
@@ -71,6 +72,7 @@ nav a{
     border: solid rgb(87, 109, 87) 2px;
     top: 50px;
     left: 25%;
+    overflow: scroll;
 }
 a{
     color: rgb(0, 161, 81);
