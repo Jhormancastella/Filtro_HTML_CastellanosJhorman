@@ -1,358 +1,225 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-   
 }
-body{
-    background-color: #edede9;
-}
-.logo{
 
+body {
+    background-color: #F7FFF7;
+    font-family: Arial, sans-serif;
+}
+
+/* -------------------------------------------- */
+/*               ESTILOS DE LA CABECERA          */
+/* -------------------------------------------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
     color: black;
 }
-.logo:hover{
+
+.logo:hover {
     color: rgb(0, 199, 76);
 }
-header{
-    display: flex;
+
+h1 {
+    padding: 20px;
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h2{
+
+h1:hover {
+    background: #00b472;
+}
+
+h2 {
     padding: 2px;
     margin: 3px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
-    padding: 20px;
-    margin: 10px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-h1:hover{
-    padding: 20px;
-    margin: 10px;
-    background: #00b472;
-}
-body{
-    background: #F7FFF7;
-}
 
-.menu{
+/* -------------------------------------------- */
+/*               ESTILOS DEL MENÚ                */
+/* -------------------------------------------- */
+.menu {
     top: 15px;
     left: 50px;
     position: absolute;
     padding: 20px;
     margin: 10px;
 }
-.content{
+
+.content {
     position: relative;
 }
-nav{
-    display:grid;
-    padding: 20px;
-    margin: 10px;
-}
-nav a{
-    display:grid;
+
+nav {
+    display: grid;
     padding: 20px;
     margin: 10px;
 }
 
-.ca{
+nav a {
+    display: grid;
     padding: 20px;
     margin: 10px;
 }
-.todoslp{
+
+a {
+    color: rgb(0, 161, 81);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+a:hover {
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+/* -------------------------------------------- */
+/*               CONTENEDOR DE PRODUCTOS         */
+/* -------------------------------------------- */
+.todoslp {
     position: relative;
     width: 1000px;
     height: 700px;
     border-radius: 10px;
     background: #d5f8e4;
     border: solid rgb(87, 109, 87) 2px;
-    top: 50px;
-    left: 25%;
+    margin: 50px auto;
+    padding: 20px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
-a{
-    color: rgb(0, 161, 81);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+
+/* -------------------------------------------- */
+/*               PRODUCTOS Y ESTILOS GRID        */
+/* -------------------------------------------- */
+.producto {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
-a:hover{
-    background-color: aliceblue;
-    border-radius: 15px;
-}
-.valor1{
-    position: absolute;
-    top: 150px;
-    left: 500px;
-}
-.valor2{
-    position: absolute;
-    top: 318px;
-    left: 500px;
-}
-.valor3{
-    position: absolute;
-    top: 480px;
-    left: 500px;
-}
-/*fotos*/
-.pr1{
-    top: 33px;
-    left: 10px;
-    position: absolute;
+
+.producto img {
     width: 135px;
-    height: 150;
-    border-radius: 10px;
-}
-.pr2{
-    top: 195px;
-    left: 10px;
-    position: absolute;
-    width: 135px;
-    height: 150;
-    border-radius: 10px;
-}
-.pr3{
-    top: 360px;
-    left: 10px;
-    position: absolute;
-    width: 135px;
-    height: 150;
-    border-radius: 10px;
-}
-.precio1{
-    position: absolute;
-    top: 130px;
-    left: 500px;
-}
-.precio2{
-    position: absolute;
-    top: 300px;
-    left: 500px;
-}
-.precio3{
-    position: absolute;
-    top: 460px;
-    left: 500px;
-}
-
-.subtotal1 {
-    position: absolute;
-    top: 130px;
-    left: 600px;
-}
-.vsb1 {
-    position: absolute;
-    top: 150px;
-    left: 600px;
-}
-
-.subtotal2 {
-    position: absolute;
-    top: 300px;
-    left: 600px;
-}
-.vsb2 {
-    position: absolute;
-    top: 315px;
-    left: 600px;
-}
-
-.subtotal3 {
-    position: absolute;
-    top: 460px;
-    left: 600px;
-}
-.vsb3 {
-    position: absolute;
-    top: 477px;
-    left: 600px;
-}
-
-.input1{
-    padding: 10px 35px ;
-    top:100px;
-    left: 150px;
-    position: absolute;
-    width: 100px;
-    height: 25;
-    border-radius: 10px;
-}
-.input2{
-    padding: 10px 35px ;
-    top:270px;
-    left: 150px;
-    position: absolute;
-    width: 100px;
-    height: 25;
-    border-radius: 10px;
-}
-.input3{
-    padding: 10px 35px ;
-    top:420px;
-    left: 150px;
-    position: absolute;
-    width: 100px;
-    height: 25;
-    border-radius: 10px;
-}
-.cantidad1{
-    position: absolute;
-    left: 155px;
-    top: 80px;
-}
-
-.cantidad2{
-    position: absolute;
-    left: 155px;
-    top: 250px;
-}
-
-.cantidad3{
-    position: absolute;
-    left: 155px;
-    top: 400px;
-}
-
-
-
-.tp1{  
-    position: absolute;
-    left: 141px;
-    padding: 5px;
-    top: 33px;
-    width: 750px;
     height: 150px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-.tp2{  
-    position: absolute;
-    left: 141px;
-    padding: 5px;
-    top: 195px;
-    width: 750px;
-    height: 150px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-.tp3{  
-    position: absolute;
-    left: 141px;
-    padding: 5px;
-    top: 360px;
-    width: 750px;
-    height: 150px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
-    border: solid 2px green;
-}
-
-.tp4{  
-    position: absolute;
-    left: 1000px;
-    padding: 5px;
-    top: 750px;
-    width: 300px;
-    height: 100px;
-    background-color:  rgb(255, 255, 255);
-    border-radius: 15px;
+    object-fit: cover;
     border-radius: 10px;
-    border: solid 2px green;
+    margin-bottom: 10px;
 }
 
-.precio4 {
-    position: absolute;
-    top: 780px;
-    left: 1210px;
-}
-.valor4 {
-    position: absolute;
-    top: 810px;
-    left: 1210px;
+.producto p {
+    margin: 10px 0;
+    font-size: 14px;
 }
 
-
-.cantidad4{
-    position: absolute;
-    left: 155px;
-    top: 400px;
+.producto .price {
+    font-weight: bold;
+    color: green;
 }
 
-.input4{
-    padding: 10px 35px ;
-    top:420px;
-    left: 150px;
-    position: absolute;
+.producto .input {
+    padding: 10px 20px;
     width: 100px;
-    height: 25;
+    height: 25px;
     border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
 }
-.button4{
-    position: absolute;
-   left: 5px;
-   top: 38px;
-   padding: 2px;
-   border-radius: 3px;
+
+.producto button {
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
 }
-.button4:hover{
+
+.producto button:hover {
+    background: darkred;
+}
+
+/* -------------------------------------------- */
+/*               ESTILOS DEL TOTAL               */
+/* -------------------------------------------- */
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.total .button {
     background: green;
     color: white;
-    position: absolute;
-   left: 5px;
-   top: 38px;
-   padding: 2px;
-   border-radius: 3px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.button1{
-    position: absolute;
-   left: 755px;
-   top: 55px;
-   padding: 2px;
-}
-.button2{
-    position: absolute;
-   left: 755px;
-   top: 55px;
-   padding: 2px;
-}
-.button3{
-    position: absolute;
-   left: 755px;
-   top: 55px;
-   padding: 2px;
+.total .button:hover {
+    background: darkgreen;
 }
 
-
-.buttonv{
-    position: absolute;
-    left: 550px;
-    top: 780px;
-   padding: 2px;
+.valor-total {
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
 }
 
-
-.buttonva{
-    height: 35px;
-    width: 50px;
-    left: 550px;
-    top: 780px;
-}
-
-.buttonv:hover{
-    background: #00b472;
+/* -------------------------------------------- */
+/*               ESTILOS PARA EL BOTÓN "VACÍAR"  */
+/* -------------------------------------------- */
+.buttonva {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: red;
     color: white;
-    position: absolute;
-    left: 550px;
-    top: 780px;
-   padding: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-@media screen and (max-width: 700px) {
 
+.buttonva:hover {
+    background: darkred;
+}
 
-    
-  }
+/* -------------------------------------------- */
+/*               ESTILOS RESPONSIVOS             */
+/* -------------------------------------------- */
+@media screen and (max-width: 768px) {
+    .todoslp {
+        grid-template-columns: 1fr 1fr; /* Dos columnas en tabletas */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .todoslp {
+        grid-template-columns: 1fr; /* Una columna en dispositivos móviles */
+    }
+
+    .producto img {
+        width: 100%;
+        height: auto;
+    }
+}
+
